@@ -56,7 +56,7 @@ function generatePassword (){
 //creating random number
   var retVal = "";
   for (var i = 0; i < length; i++) {
-    retVal += charSet(Math.floorMath.random()*charSet.length);
+    retVal += charTypes(Math.floorMath.random()*charSet.length);
     console.log(retVal);
   }
 
