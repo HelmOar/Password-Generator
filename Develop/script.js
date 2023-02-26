@@ -23,12 +23,12 @@ function generatePassword (){
     return null;
   }
 
-  var hasLower = confirm ("Do you want lower-case characters?")
-  var hasUpper = confirm ("Do you want upper-case characters?")
-  var hasNumbers = confirm ("Do you want numerical characters?")
-  var hasSpecialCharacters = confirm ("Do you want special characters?")
+  var hasLower = confirm ("Would you like lower-case characters?")
+  var hasUpper = confirm ("Would you like upper-case characters?")
+  var hasNumbers = confirm ("Would you like numerical characters?")
+  var hasSpecialCharacters = confirm ("Would you like special characters?")
   if (hasLower===false && hasUpper===false && hasNumbers===false && hasSpecialCharacters===false ) {
-    alert ("Error - choose at least one category")
+    alert ("Error - please choose at least one category")
     return null;
   }
 
@@ -58,9 +58,9 @@ function generatePassword (){
   for (var i = 0; i < parseInt(passwordLength); i++) {
     retVal += charSet[Math.floor(Math.random()*charSet.length)];
     console.log(retVal);
-    return retVal;
+    
   }
-  
+  return retVal;
 }
   
 
