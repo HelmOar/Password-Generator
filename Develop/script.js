@@ -55,11 +55,12 @@ function generatePassword (){
   };
 //creating random number
   var retVal = "";
-  for (var i = 0; i < length; i++) {
-    retVal += charTypes(Math.floorMath.random()*charSet.length);
+  for (var i = 0; i < parseInt(passwordLength); i++) {
+    retVal += charSet[Math.floor(Math.random()*charSet.length)];
     console.log(retVal);
+    return retVal;
   }
-
+  
 }
   
 
@@ -71,7 +72,7 @@ function generatePassword (){
 
 
 
-
+// generateBtn.addEventListener("click", writePassword);
 
   // var chars =  "0123456789abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ !@#$%^&*()_+|<>?
   // var length 
@@ -84,7 +85,7 @@ function generatePassword (){
 
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+
 
 
 
