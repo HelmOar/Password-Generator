@@ -16,7 +16,7 @@ The code uses logic based JavaScript with an initial selection of prompt and con
 
 A series of prompts is displayed onscreen to elicit desired parameters for the password, including length and character types. These are initiated by clicking the "Generate Password" button. THe generated password is then displayed in the text box, where it can be safely copied by the user. 
 
-    ![alt text](assets/screenshot-password.png)    
+    ![alt text](develop/Assets/screenshot-password.pngassets/)    
 
 
 
