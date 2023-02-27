@@ -1,23 +1,15 @@
 # Password-Generator
-# <Your-Project-Title>
+
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+The application is intented to support employees, working with sensitive data, to create strong passwords for themselves. According to security experts, passwords are quite often extremely weak and easy to guess, as demonstrated when "123456" was declared the most popular password of 2020. On top of a simple guess, botnet power or brute force can also be implemented to crack open the password if it is too short. 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+ The Password-Generator solves this issue by randomly generating secure passwords based on criteria chosen by the user. Password-Generator can generate a unique password from 8-128 characters including both upper and lowercase characters, numerical characters and 16 special characters. The combination of length and diversity is essential for password best practise and as brute force power increases, passwords also need to evolve with ever increasing complexity.
+ 
+ The Password-Generator app runs in the browser and features dynamically updated HTML and CSS powered by JavaScript. The UI is clean and responsive to multiple screen sizes. 
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+The code uses logic based JavaScript with an initial selection of prompt and confirmation windows which collect the input for the password requirements which are stored into variables. Possible characters are indexed into an array and then chosen from the input requiremnts using if statements. Finally the password is generated to it's predetermined length by using iteration and the Math.floor(Math.random() to randomise the characters. The unique password is then displayed on the screen. 
 
 ## Installation
 
@@ -35,19 +27,13 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Caroline Helmore chelmore1@bigpond.com
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+Unliscensed 
 
----
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
 ## Badges
 
