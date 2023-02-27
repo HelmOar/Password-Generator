@@ -14,11 +14,11 @@ The code uses logic based JavaScript with an initial selection of prompt and con
 
 ## Usage
 
+ https://helmoar.github.io/Password-Generator/
+
 A series of prompts is displayed onscreen to elicit desired parameters for the password, including length and character types. These are initiated by clicking the "Generate Password" button. THe generated password is then displayed in the text box, where it can be safely copied by the user. 
 
  ![Password-Generator](Assets/screenshot-password.png)    
-
-    https://helmoar.github.io/Password-Generator/
 
    [password-generator screenrecording_ Feb 28, 2023 8_36 AM.webm](https://user-images.githubusercontent.com/122151785/221702354-1e97fe82-72de-4b9e-9535-7f67041f038b.webm)
 
