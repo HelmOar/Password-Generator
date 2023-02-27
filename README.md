@@ -20,7 +20,7 @@ A series of prompts is displayed onscreen to elicit desired parameters for the p
 
     https://helmoar.github.io/Password-Generator/
 
-
+   [password-generator screenrecording_ Feb 28, 2023 8_36 AM.webm](https://user-images.githubusercontent.com/122151785/221702354-1e97fe82-72de-4b9e-9535-7f67041f038b.webm)
 
 ## Credits
 
